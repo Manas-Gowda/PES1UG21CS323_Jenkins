@@ -19,11 +19,11 @@ pipeline {
       sh './output'
       }
     }
-    stage('Deploy') {
-      steps {
-        echo 'deploy'
-      }
-    }
+    // stage('Deploy') {
+    //   steps {
+    //     echo 'deploy'
+    //   }
+    // }
   }
   post{
     failure{
